@@ -1,0 +1,244 @@
+
+#bloc_page
+{
+   
+}
+
+h1
+{
+	font-size: 3.2em;
+}
+
+h2
+{
+	font-size: 2em;
+}
+
+p
+{
+	font-size: 1.9em;
+}
+
+nav li
+{
+	font-size: 2em;
+}
+
+.liste_section1 li
+{
+	font-size: em;
+}
+
+.li_span
+{
+	font-size: 2em;
+}
+
+/*header*/
+#en_tete
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	position: absolute;
+}
+
+header nav ul 
+{
+	flex-direction: column;
+}
+
+header nav li
+{
+	padding-left: 15px;
+
+}
+header nav
+{
+	text-align: left;
+}
+
+/*bannière*/
+
+#texte_portfolio
+{
+	background: none;
+}
+.white
+{
+	color: rgb(144,147,150);
+}
+
+#infos .white
+{
+	color: #fff;
+}
+
+#infos
+{
+	width: 200px;
+}
+
+#circle
+{
+	display: none;
+}
+
+#circle1
+{
+	display: none;
+}
+
+.fleche_left
+{
+	display: none;
+}
+
+.fleche_right
+{
+	display: none;
+}
+
+/*nos service*/
+
+#pc_ul
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#image_pc
+{
+	margin-left: 25%;
+}
+
+.liste_section1
+{
+	padding-left: 200px;
+}
+
+#circ
+{
+	display: none;
+}
+
+.circ1
+{
+	display: none;
+}
+
+.circ2
+{
+	display: none;
+}
+
+.circ3
+{
+	display: none;
+}
+ .circ4
+{
+	display: none;
+}
+
+.circ5
+{
+	display: none;
+}
+
+.circ6
+{
+	display: none;
+}
+
+.icon_pie
+{
+	display: none;
+}
+
+.icon_line
+{
+	display: none;
+}
+
+.icon_cubes
+{
+	display: none;
+}
+
+
+
+/*Nos projets*/
+#section2
+{
+	justify-content: center;
+	width: 100%;
+}
+
+#projets_portfolio
+{
+	flex-direction: column;
+	margin-left: 0px;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.portfolio
+{
+	margin-left: 0px;
+}
+
+.portfolio img
+{
+  width: 100%;
+}
+
+#circ_projet1
+{
+	display: none;
+}
+
+.circ_projet2
+{
+	display: none;
+}
+
+.eyes
+{
+	display: none;
+}
+
+/*Carte et formulaire*/
+
+iframe
+{
+	height: 1000px;
+}
+
+input
+{
+	width: 500px;
+	height: 35px;
+	font-size: 1em;
+} 
+
+textarea
+{
+	width: 498px;
+	font-size: 1em;
+}
+
+.send_message
+{
+	width: 230px;q
+	padding: 0px;
+}
+
+#formulaire
+{
+	right: 20px;
+	top: 30px;
+}
+
+
+
