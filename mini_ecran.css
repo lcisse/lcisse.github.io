@@ -16,20 +16,31 @@ h2
 
 p
 {
-	font-size: 1.9em;
+	font-size: 2em;
 }
+
+#h_p1 p
+{
+	font-size: 1em;
+}
+
+#h_p2 p
+{
+	font-size: 2em;
+}
+
 
 nav li
 {
 	font-size: 2em;
 }
 
-.liste_section1 li
+.nav_nos_projets
 {
-	font-size: em;
+	font-size: 2em;
 }
 
-.li_span
+.liste_span
 {
 	font-size: 2em;
 }
@@ -43,17 +54,29 @@ nav li
 	position: absolute;
 }
 
-header nav ul 
+#logo img
+{
+	height: 100px;
+	margin-left: -20px;
+}
+
+.nav_header:hover
+{
+	color: rgb(92,173,211);
+	border-top: none;
+	padding-top: 33px;
+}
+nav ul 
 {
 	flex-direction: column;
 }
 
-header nav li
+nav li
 {
 	padding-left: 15px;
 
 }
-header nav
+nav
 {
 	text-align: left;
 }
@@ -63,6 +86,12 @@ header nav
 #texte_portfolio
 {
 	background: none;
+	height: 600px;
+}
+
+#texte_banniere 
+{
+	margin: 170px 0px 0px 100px;
 }
 .white
 {
@@ -101,7 +130,7 @@ header nav
 
 /*nos service*/
 
-#pc_ul
+#pc_liste_section1
 {
 	display: flex;
 	flex-direction: column;
@@ -114,59 +143,8 @@ header nav
 
 .liste_section1
 {
-	padding-left: 200px;
+	padding-left: 20px;
 }
-
-#circ
-{
-	display: none;
-}
-
-.circ1
-{
-	display: none;
-}
-
-.circ2
-{
-	display: none;
-}
-
-.circ3
-{
-	display: none;
-}
- .circ4
-{
-	display: none;
-}
-
-.circ5
-{
-	display: none;
-}
-
-.circ6
-{
-	display: none;
-}
-
-.icon_pie
-{
-	display: none;
-}
-
-.icon_line
-{
-	display: none;
-}
-
-.icon_cubes
-{
-	display: none;
-}
-
-
 
 /*Nos projets*/
 #section2
@@ -193,24 +171,48 @@ header nav
   width: 100%;
 }
 
-#circ_projet1
+figcaption
+{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	left:0; right: 0;
+	padding-left: 20px;
+	background-color: rgba(0,0,0,.5);
+	height: 40%;
+	font-size: 1.5em;
+	
+}
+
+.portfolio img:hover ~ figcaption, figcaption:hover 
 {
 	display: none;
 }
 
 .circ_projet2
 {
-	display: none;
+		
+	bottom: 220px;
+	right: 60px;
+	width: 80px;
+	height: 80px;
 }
 
 .eyes
 {
-	display: none;
+	right: 80px;
+	font-size: 1.5em;
 }
 
 /*Carte et formulaire*/
 
 iframe
+{
+	height: 1000px;
+}
+
+#fond_blue
 {
 	height: 1000px;
 }
@@ -230,7 +232,7 @@ textarea
 
 .send_message
 {
-	width: 230px;q
+	width: 230px;
 	padding: 0px;
 }
 

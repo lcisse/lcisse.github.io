@@ -29,11 +29,6 @@ body
 	margin: 0px;
 }
 
-#bloc_page
-{
-   
-}
-
 h1
 {
 	font-family: 'robotoblack';
@@ -209,7 +204,7 @@ section
 	justify-content: center; 
 }
 
-#pc_ul
+#pc_liste_section1
 {
 	display: flex;
 	justify-content: space-between;
@@ -218,133 +213,82 @@ section
 #image_pc
 {
 	margin-left: 150px;
+	margin-top: 50px;
+}
+
+.liste_span
+{
+	font-weight: bold;
+	font-family: 'robotoblack';
+}
+
+.trait_service
+{
+	position: relative;
+}
+
+#cercle_trait_service
+{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgb(92,173,211);
+	border: 3px solid white;
+	left: 49.5%;
+	top: -10px;
 }
 
 .liste_section1
 {
-  margin-right: 400px;
-  margin-top: 80px;
-  list-style: none; 
+	margin-right: 140px;
+   margin-left: 220px;
+   margin-top: 120px;
 }
 
-.liste_section1 li 
+.liste_section1 .service_liste
 {
-   color: rgb(92,173,211);
+	display: flex;
+	top: ;
 }
 
-.liste_section1 li:first-line
+.conteneur_cercle
 {
-	color: black;
+	position: relative;
+	right: 100px;
 }
 
-#circ
-{
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: rgb(92,173,211);
-	margin: -20px 0px 0px 750px;
-	border: 3px solid white;
-}
-
-.circ1
-{
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: rgb(92,173,211);
-	margin: -215px 0px 0px 865px;
-	border: 3px solid white;
-	z-index: 2;
-
-}
-
-.circ2
-{
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: rgb(92,173,211);
-	margin: -135px 0px 0px 865px;
-	border: 3px solid white;
-	z-index: 2;
-
-}
-
-.circ3
-{
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: rgb(92,173,211);
-	margin: -55px 0px 0px 865px;
-	border: 3px solid white;
-	z-index: 2;
-
-}
-
-.circ4
+.cercle1_service
 {
 	position: absolute;
 	width: 65px;
 	height: 65px;
 	border-radius: 50%;
 	background-color: white;
-	margin: -240px 0px 0px 805px;
 	border: 1px solid rgb(222,223,224);
 }
 
-.circ5
+
+.cercle2_service
 {
 	position: absolute;
-	width: 65px;
-	height: 65px;
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
-	background-color: white;
-	margin: -160px 0px 0px 805px;
-	border: 1px solid rgb(222,223,224); 
+	background-color: rgb(92,173,211);
+	border: 3px solid white;
+	left: 58px;
+	top: 25px;
 }
 
-.circ6
-{
-	position: absolute;
-	width: 65px;
-	height: 65px;
-	border-radius: 50%;
-	background-color: white;
-	margin: -75px 0px 0px 805px;
-	border: 1px solid rgb(222,223,224); 
-}
-
-.icon_pie
+.conteneur_cercle .fas
 {
 	position: absolute;
 	color: rgb(92,173,211);
-	margin: -55px 0px 0px 827px;
 	font-size: 25px;
+	left: 20px;
+	top: 20px;
 }
-
-.icon_line
-{
-	position: absolute;
-	color: rgb(92,173,211);
-	margin: -220px 0px 0px 827px;
-	font-size: 25px;
-}
-
-.icon_cubes
-{
-	position: absolute;
-	color: rgb(92,173,211);
-	margin: -140px 0px 0px 827px;
-	font-size: 25px;
-}
-
-
 
 /*section: nos projets*/
 #section2
@@ -360,56 +304,91 @@ section
 {
 	text-align: center;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 
-.nos_projets
+.trait_projet
+{
+	position: relative;
+}
+
+#cercle_trait_projet
+{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgb(92,173,211);
+	border: 3px solid white;
+    left: 49.5%;
+    top: -10px; 
+}
+
+.nav_nos_projets
 {
 	display: flex;
 	margin: auto;
-	background-color: rgb(229,229,229);
+	padding: 18px 0px 15px 0px;
+    background-color: rgb(229,229,229)
 }
 
-section nav ul
-{
-	list-style: none;
-	padding: 0px;
-	margin-right:-5px;
-}
-
-section nav li
-{
-	display: inline;
-}
 .all_works
 {
+	display: inline;
    background-color: rgb(92,173,211);
-   width: 100%;
-   height: 100%;
-    padding: 15px 0px 15px 0px;
-    margin-right: -5px;
-    color: white;
+   color: white;
+   border-bottom: 3px solid rgb(70,140,173); 
+   padding: 18px 15px 15px 15px
 }
 
-.li_projet
+.fleche_all_works
+{
+	position: absolute;
+	bottom: -34px;
+	left: 46%;
+	color: rgb(70,140,173);
+	font-size: 23px;
+}
+
+.liste_projet
 {
 	display: inline;
-	width: 100%;
-	height: 100%;
-	padding: 15px;
+	padding: 18px 15px 15px 15px;
 }
 
-.li_projet:hover
+.liste_projet:hover
 {
 	color: white;
 	background-color: rgb(92,173,211);
 	border-bottom: 3px solid rgb(70,140,173); 
 }
 
+.conteneur_nav
+{
+	position: relative;
+}
+
+.fleche_nav
+{
+	display: none;
+	position:absolute;
+	bottom: -34px;
+	left: 46%;
+	color: rgb(70,140,173);
+	font-size: 23px;
+}
+
+.conteneur_nav:hover .fleche_nav
+{
+	display: block;
+}
+
 #projets_portfolio
 {
 	display:flex;
 	flex-wrap: wrap;
-	margin-left: 40px
+	margin-left: 40px;
+	margin-top: 20px;
 }
 
 .portfolio
@@ -432,29 +411,21 @@ figcaption
 	bottom: 0;
 	color: white;
 	left:0; right: 0;
+	padding-left: 20px;
+	
 }
 figcaption p
 {
 	color: white;
 }
 
-.portfolio img:hover ~ figcaption 
+.portfolio img:hover ~ figcaption, figcaption:hover 
 {
 	display: block;
 	background-color: rgba(0,0,0,.5);
 }
 
-#circ_projet1
-{
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
-	background-color: rgb(92,173,211);
-	border: 3px solid white;
-	top: 110px;
-	left: 750px;
-}
+
 
 .circ_projet2
 {
@@ -486,8 +457,20 @@ figcaption p
 }
 #carte_google
 {
+	position: absolute;
+	margin-top: 50px;
+	width: 100%;
+}
+
+#fond_blue
+{
+	width: 100%; 
+	height: 559.6px;
+	position: absolute; ;
+	background-color: rgba(153,217,234,0.3);
 	margin-top: 50px;
 }
+
 #formulaire
 {
 	position: absolute;
@@ -516,15 +499,10 @@ iframe
 	padding: 5px 0px 5px 0px;
 }
 
-/*ecran tablette*/
+          /*       ECRAN TABLETTE      */
+
 @media all and (min-width: 426px) and (max-width: 1025px)
 {
-	
-	#bloc_page
-	{
-	   
-	}
-
 	h1
 	{
 		font-size: 2.5em;
@@ -537,20 +515,15 @@ iframe
 
 	p
 	{
-		font-size: 1.5em;
+		font-size: 1em;
+	}
+
+	.nos_services p
+	{
+		font-size: 1em;
 	}
 
 	nav li
-	{
-		font-size: 1.5em;
-	}
-
-	.liste_section1 li
-	{
-		font-size: em;
-	}
-
-	.li_span
 	{
 		font-size: 1.5em;
 	}
@@ -579,15 +552,21 @@ iframe
 		text-align: left;
 	}
 
-	/*bannière*/
+	    /*    section: banniére    */
 
 	#texte_portfolio
 	{
 		background: none;
+		height: 500px;
 	}
 	.white
 	{
 		color: rgb(144,147,150);
+	}
+
+	 #infos
+	{
+		width: 200px;
 	}
 
 	#infos .white
@@ -614,18 +593,11 @@ iframe
 	{
 		display: none;
 	}
-
-/*section: banniére*/
-
-	#infos
-	{
-		width: 200px;
-	}
-
+    
 
 /*nos service*/
 
-	#pc_ul
+	#pc_liste_section1
 	{
 		display: flex;
 		flex-direction: column;
@@ -638,57 +610,9 @@ iframe
 
 	.liste_section1
 	{
-		padding-left: 200px;
+		padding-left: 20px;
 	}
-
-	#circ
-	{
-		display: none;
-	}
-
-	.circ1
-	{
-		display: none;
-	}
-
-	.circ2
-	{
-		display: none;
-	}
-
-	.circ3
-	{
-		display: none;
-	}
-	 .circ4
-	{
-		display: none;
-	}
-
-	.circ5
-	{
-		display: none;
-	}
-
-	.circ6
-	{
-		display: none;
-	}
-
-	.icon_pie
-	{
-		display: none;
-	}
-
-	.icon_line
-	{
-		display: none;
-	}
-
-	.icon_cubes
-	{
-		display: none;
-	}
+	
 
 	/*Nos projets*/
 	#section2
@@ -713,27 +637,50 @@ iframe
 	  width: 480px;
 	}
 
-	#circ_projet1
+	figcaption
+	{
+		display: block;
+		position: absolute;
+		bottom: 0;
+		color: white;
+		left:0; right: 0;
+		padding-left: 20px;
+		background-color: rgba(0,0,0,.5);
+		height: 40%;
+		font-size: 1em;
+		
+	}
+
+	.portfolio img:hover ~ figcaption, figcaption:hover 
 	{
 		display: none;
 	}
 
 	.circ_projet2
 	{
-		display: none;
+		
+		bottom: 117px;
+		right: 10px;
 	}
 
-	.eyes
+	#circ_projet1
 	{
 		display: none;
 	}
+
 
 	/*Carte et formulaire*/
 
 	iframe
 	{
-		height: 900px;
+		height: 700px;
 	}
+
+	#fond_blue
+    {
+	height: 700px;
+    }
+
 
 	input
 	{
