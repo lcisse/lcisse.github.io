@@ -3,29 +3,26 @@
     <head>
         <meta charset="utf-8" />
         <title>Le site WebAgency</title>
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="projet1.css"/>
-        <link rel="stylesheet" media="all and (max-device-width: 425px)" href="mini_ecran.css">
     </head>
 
     <body>
     	<div id="bloc_page">
-    		<header>           <!.....HEADER....>
+    		<header>           <!--HEADER-->
     			<div id="en_tete">
     				<div id="logo"><img src="image/logo.png" alt="le logo"/>
     				</div>
     				<nav>
     					<ul>
-    						<li><a class="nav_header1">Accueil</a></li>
-    						<li><a class="nav_header">Services</a></li>
-    						<li><a class="nav_header">Porfolio</a></li>
-    						<li><a class="nav_header">Contact</a></li>
+    						<li><a href="#texte_portfolio"class="nav_header1">Accueil</a></li>
+    						<li><a href="#nos_services" class="nav_header">Services</a></li>
+    						<li><a href="#section2"class="nav_header">Porfolio</a></li>
+    						<li><a href="#carte_formulaire"class="nav_header">Contact</a></li>
     					</ul>
     				</nav>
-    			</div>
-    	    </header>
-                            <!......BANNIERE......>
-    	    <section>
+    			</div>          <!--BANNIERE-->    	    
     	    	<div id="texte_portfolio">
     	    		<div id="texte_banniere">
 	    				<h1 class="white"><span id="webagency">WEBAGENCY</span>:L'AGENCE DE TOUS <br/> VOS PROJETS!</h1>
@@ -36,9 +33,9 @@
     		        <div id="circle1"></div>
 					<div class="fleche_left"><i class="fas fa-angle-left"></i></div>
 					<div class="fleche_right"><i class="fas fa-angle-right"></i></div>
-    		    </div>
-    		</section>
-    		<hr/>            
+    		    </div> 
+             </header> 
+             <hr id="timeline" />           
                             <!.......NOS SERVICES.....>
     	    <section>
     	    	<div id="nos_services">
@@ -218,8 +215,8 @@
 		    	        	<p>
 		    	        		<textarea rows="7">Message</textarea>
 		    	        	</p>
-		    	        </form>
-		    	        <p><input class="send_message" type="submit" value="Send Message"/></p>                    
+                            <p><input class="send_message" type="submit" value="Send Message"/></p>
+		    	        </form>                        
 		    	    </div>
                     
 	    	  </div>
