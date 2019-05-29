@@ -459,7 +459,13 @@ section
 	right: 23px;
 }
 
-
+ @media all and (min-width: 1441px) and (max-width: 2560px)
+ {
+ 	.portfolio img
+    {
+        width: 540px;
+    }
+}
 
 /*Carte et formulaire*/
 
@@ -515,14 +521,7 @@ textarea
 	padding: 5px 0px 5px 0px;
 }
 
-     /*.....espace nos projets..*/;
- @media all and (min-width: 1441px) and (max-width: 2560px)
- {
- 	.portfolio img
-    {
-        width: 540px;
-    }
-}
+     /*.....espace nos projets..*/
 
 
           /*.......ECRAN TABLETTE......*/
