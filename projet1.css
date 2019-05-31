@@ -199,6 +199,7 @@ a
 	width: 150px;
 	border: 2px solid rgb(92,173,211);
 	position: absolute;
+	margin-top: -4px;
 	z-index: 3;
 
 }
@@ -400,22 +401,22 @@ section
 {
 	display:flex;
 	flex-wrap: wrap;
-	margin-left: 40px;
-	margin-top: 20px;
+	margin-left: 100px;
+	margin-top: 30px;
 }
 
 .portfolio
 {
 	justify-content: space-around;
-	padding-top: 25px;
-	margin-left: 30px;
+	padding-top: 0px;
+	margin-left: 0px;
 	position: relative;
 }
 
 .portfolio img
 {
  width: 270px;
- }
+}
 
 .figcap
 {
@@ -425,8 +426,9 @@ section
 	color: white;
 	left:0; right: 0;
 	padding-left: 20px;
-	
+	height: 
 }
+
 .figcap p
 {
 	color: white;
@@ -471,7 +473,7 @@ section
  {
  	.portfolio img
     {
-        width: 475px;
+        width: 430px;
     }
 }
 
@@ -691,12 +693,12 @@ textarea
 
 	.portfolio
 	{
-		margin-left: 0px;
+		margin-left: px;
 	}
 
 	.portfolio img
 	{
-	  width: 380px;
+	  width: 310px;
 	}
 
 	.figcap
@@ -710,6 +712,7 @@ textarea
 		background-color: rgba(0,0,0,.5);
 		height: 40%;
 		font-size: 1em;
+		padding-bottom: 27px;
 		
 	}
 
