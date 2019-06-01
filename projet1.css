@@ -201,7 +201,6 @@ a
 	position: absolute;
 	margin-top: -4px;
 	z-index: 3;
-
 }
 
 .trait_service hr,.trait_projet hr 
@@ -652,6 +651,11 @@ textarea
 	{
 		display: none;
 	}
+
+	#timeline
+    { 
+	display: none;
+    }
     
 
         /*.......nos service........*/
@@ -833,6 +837,11 @@ textarea
 		text-align: left;
 	}
 
+	#timeline
+    { 
+	display: none;
+    }
+
 	    /*......section: banniére......*/
 
 	header
@@ -947,7 +956,7 @@ textarea
 		left:0; right: 0;
 		padding-left: 20px;
 		background-color: rgba(0,0,0,.5);
-		height: 40%;
+		height: 33%;
 		font-size: 1em;
 		
 	}
