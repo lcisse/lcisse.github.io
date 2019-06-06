@@ -27,6 +27,7 @@ body
 {
 	
 	margin: 0px;
+	width: 100%;
 }
 
 h1
@@ -55,6 +56,11 @@ nav li
 	font-size: 0.9em;
 } 
 
+*
+{
+	
+}
+
 /*header*/
 header
 {
@@ -63,14 +69,15 @@ header
 	background: url('image/image_header.jpg') no-repeat bottom;
 	background-size: 100%; 
 	width: 100%;
-	height: 690px;
-	margin-top: -70px;
+	height: 590px;
 }
 #en_tete
 {
 	display: flex;
 	width: 100%;
+	height: 100px;
 	justify-content: space-between;
+	align-items: center; 
 	position: fixed;
 	background: white;
 	z-index: 10;
@@ -79,12 +86,12 @@ header
 
 #logo
 {
-	padding: 20px 0px 20px 120px;
+	padding-left: 50px;
 }
 
 nav
 {
-   padding: 20px 120px 20px 0px;
+   padding-right: 50px;
 }
 
 nav ul 
@@ -102,14 +109,14 @@ nav li
 {
 	color: rgb(92,173,211);
 	border-top: 3px solid;
-	padding-top: 33px
+	padding-top: 38px
 }
 
 .nav_header:hover
 {
 	color: rgb(92,173,211);
 	border-top: 3px solid;
-	padding-top: 33px;
+	padding-top: 38px;
 }
 
 a
@@ -121,12 +128,16 @@ a
 /*section: bannère*/
 #texte_portfolio
 {
-	
+	display: flex;
+	align-items: center;
+	padding: 80px 0px 0px 50px;
+	width: 100%;
 }
 
 #texte_banniere 
 {
-	margin: 350px 0px 0px 150px;
+	padding: 50px 0px 0px 50px;
+	width: 100%;
 }
 
 .white
@@ -216,6 +227,7 @@ section
 #nos_services
 {
 	position: relative;
+	width: 100%;
 }
 
 #h_p1
@@ -227,13 +239,15 @@ section
 #pc_liste_section1
 {
 	display: flex;
-	justify-content: space-between;
+	align-items: flex-end;
+	margin-left: 50px;
+	padding-left: 50px;
 }
 
 #image_pc
 {
-	margin-left: 150px;
-	margin-top: 50px;
+    width: 500px;
+    margin-top: 50px;
 }
 
 .liste_span
@@ -261,7 +275,9 @@ section
 
 .liste_section1
 {
-   margin: 120px 140px 0px 220px;
+   width: 500px;
+   margin-left: 50px;
+   padding: 50px 50px 0px 50px;
 }
 
 .conteneur_cercle
@@ -301,6 +317,7 @@ section
 	left: 20px;
 	top: 20px;
 }
+
 
 /*section: nos projets*/
 #section2
@@ -425,7 +442,6 @@ section
 	color: white;
 	left:0; right: 0;
 	padding-left: 20px;
-	height: 
 }
 
 .figcap p
@@ -462,19 +478,67 @@ section
 
 @media all and (min-width: 769px) and (max-width: 1024px)
  {
- 	.portfolio img
-    {
-        width: 170px;
-    }
-}
+ 	h1 
+ 	{
+ 		font-size: 2em;
+ 	} 
 
- @media all and (min-width: 1540px) and (max-width: 2560px)
- {
- 	.portfolio img
-    {
-        width: 410px;
-    }
-}
+ 	   /*header*/
+ 	header
+ 	{
+ 		height: 445px;
+ 	}
+
+	 #circle
+	{
+		bottom: 160px;
+		
+		
+	}
+	#circle1
+	{
+		bottom: 160px; 
+	}
+
+	.fleche_left
+	{
+		bottom: 160px;
+	}
+
+	.fleche_right
+	{
+		bottom: 160px;
+	}
+	  /*nos services*/
+ 	.pc_liste_section1
+ 	{ 
+ 		
+ 	}
+ 	.liste_section1
+ 	{
+ 		width: 300px;
+ 	}
+ 	#image_pc
+ 	{
+ 		margin: 0px 0px 50px 0px;
+ 	}
+
+ 	  /*nos projets*/
+ 	
+	 	.portfolio img
+	    {
+	        width: 170px;
+	    }
+	}
+
+	 @media all and (min-width: 1540px) and (max-width: 2560px)
+	 {
+	 	.portfolio img
+	    {
+	        width: 410px;
+	    }
+
+	}
 
 /*Carte et formulaire*/
 
@@ -574,12 +638,11 @@ textarea
 		width: 100%;
 		justify-content: space-between;
 		position: absolute;
-	    top: 70px;
     }
 
 	#logo img
     {
-	margin-left: -40px;
+	padding: 30px 0px 0px 10px;
     }
 
 	header nav ul 
@@ -590,19 +653,18 @@ textarea
 	header nav
 	{
 		text-align: left;
+		padding-top: 50px;
 	}
 	.nav_header1
     {
 	color: rgb(92,173,211);
 	border-top: 3px solid;
-	padding-top: 33px
+	
    }
 
 	.nav_header:hover
 	{
-		color: rgb(144,147,150);
 		border-top: none;
-		padding-top: 33px;
 	}
 
 	    /*......section: banniére......*/
@@ -610,12 +672,16 @@ textarea
 	header
 	{
 		background: none;
-		height: 440px;
+		height: 550px;
 	}
-
+    
+    #texte-portfolio
+    {
+    
+    }
 	#texte_banniere 
     {
-	margin: 320px 0px 0px 80px;
+	
     }
 	.white
 	{
@@ -662,23 +728,27 @@ textarea
 
         #nos_services
     {
-	margin-top: 150px;
+	
 	}
 
 	#pc_liste_section1
 	{
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		margin-left: 0px;
+		padding-left: 0px;
 	}
 
 	#image_pc
 	{
-		margin-left: 18%;
+		margin-left: 0px;
 	}
 
 	.liste_section1
 	{
 		padding-left: 20px;
+
 	}
 
 
@@ -693,11 +763,6 @@ textarea
 	{
 		justify-content: space-around;
 		margin-left: 0px;
-	}
-
-	.portfolio
-	{
-		margin-left: px;
 	}
 
 	.portfolio img
@@ -784,12 +849,12 @@ textarea
 {
     h1
 	{
-		font-size: 2.3em;
+		font-size: 1.4em;
 	}
 
 	h2
 	{
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 
 	p
@@ -804,7 +869,7 @@ textarea
 
 	nav li
 	{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	.liste_span
@@ -819,12 +884,18 @@ textarea
 		width: 100%;
 		justify-content: space-between;
 		position: absolute;
-		top: 70px;
+	}
+
+	#logo
+	{
+		padding: 0px 0px 40px 0px;
+		width: 135px;
 	}
 
 	#logo img
     {
-	margin-left: -60px;
+	    margin: 30px 0px 0px 20px;
+	    width: 180px;
     }
 
 	header nav ul 
@@ -835,6 +906,13 @@ textarea
 	header nav
 	{
 		text-align: left;
+		padding: 80px 30px 0px 0px;
+		margin: 0px;
+	}
+
+	.nav_header:hover
+	{
+		border-top: none;
 	}
 
 	#timeline
@@ -851,9 +929,14 @@ textarea
 		width: 100%
 	}
 
+	#texte_portfolio
+	{
+		padding: 80px 0px 0px 20px;
+	}
+
 	#texte_banniere 
     {
-	margin: 300px 0px 0px 80px;
+	   padding: 0px;
     }
 	.white
 	{
@@ -895,7 +978,7 @@ textarea
 
     #nos_services
     {
-        margin-top: 130px;
+        margin-top: 0px;
     }
 
 	#pc_liste_section1
@@ -906,16 +989,33 @@ textarea
 
 	#image_pc
 	{
-		margin-left: 8%;
+		width: 309px;
+		height: 200px;
+		margin: 0px;
+	}
+	#image_pc img
+	{
+		width: 100%;
 	}
 
 	.liste_section1
 	{
-		padding-right: px;
-		margin-left: px;
+		margin: 0px;
+		width: 200px;
+		padding-right: 0px;
 	}
 
+	.portfolio
+	{
+		margin: 0px;
+	}
 
+	.trait_service hr,.trait_projet hr 
+	{
+		width: 30%;
+	}
+     
+    
 	/*.......Nos projets..........*/
 	#section2
 	{
@@ -925,12 +1025,29 @@ textarea
 	#h_p2
     {
     	;
-    }
+    } 
+    	.nav_nos_projets
+	{
+		margin: 0px;
+		padding: 18px 0px 15px 0px;
+	    width: 100%;
+	}
 
-    .nav_nos_projets
-    {
-    	
-    }
+	.conteneur_nav
+	{
+		width: 80px;
+		margin: auto;
+	} 
+
+	.all_works
+	{
+	   padding: 18px 0px 15px 10px
+	}
+
+	.liste_projet
+	{
+		padding: 18px 20px 15px 10px;
+	}
 
 	#projets_portfolio
 	{
@@ -944,7 +1061,7 @@ textarea
 
 	.portfolio img
 	{
-	  width: 380px;
+	  width: 305px;
 	}
 
 	.figcap
@@ -969,7 +1086,7 @@ textarea
 	.circ_projet2
 	{
 		
-		bottom: 90px;
+		bottom: 75px;
 		right: 10px;
 	}
 
@@ -983,38 +1100,38 @@ textarea
 
 	iframe
 	{
-		height: 700px;
+		height: 400px;
 	}
 
 	#fond_blue
     {
-	height: 700px;
+	height: 400px;
     }
 
 
 	input
 	{
-		width: 500px;
+		width: 100%;
 		height: 35px;
 		font-size: 0.8em;
 	} 
 
 	textarea
 	{
-		width: 498px;
-		height: 200px;
+		width: 98.5%;
+		height: 100px;
 		font-size: 0.8em;
 	}
 
 	.send_message
 	{
-		width: 180px;
+		width: 130px;
 		padding: 2px;
 	}
 
 	#formulaire
 	{
-		right: 20px;
-		top: 30px;
-	}
+		right: 5%; left: 5%;
+		top: 430px;
+	} 
 }
