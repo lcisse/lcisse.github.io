@@ -239,9 +239,8 @@ section
 #pc_liste_section1
 {
 	display: flex;
-	align-items: flex-end;
-	margin-left: 50px;
-	padding-left: 50px;
+	align-items: center;
+	justify-content: space-around;
 }
 
 #image_pc
@@ -254,6 +253,11 @@ section
 {
 	font-weight: bold;
 	font-family: 'robotoblack';
+}
+
+.service_liste
+{
+	display: flex;
 }
 
 .trait_service
@@ -275,9 +279,7 @@ section
 
 .liste_section1
 {
-   width: 500px;
-   margin-left: 50px;
-   padding: 50px 50px 0px 50px;
+   max-width: 570px;
 }
 
 .conteneur_cercle
@@ -416,17 +418,23 @@ section
 #projets_portfolio
 {
 	display:flex;
-	flex-wrap: wrap;
-	margin-left: 100px;
 	margin-top: 30px;
+	justify-content: center;
+}
+
+#conteneur_portfolio
+{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1240px;
+	justify-content: center;
 }
 
 .portfolio
 {
-	justify-content: space-around;
 	padding-top: 0px;
-	margin-left: 0px;
 	position: relative;
+	margin: 15px;
 }
 
 .portfolio img
@@ -599,7 +607,7 @@ textarea
 
           /*.......ECRAN TABLETTE......*/
 
-@media all and (max-width: 768px)
+@media all and (max-width: 770px)
 {
 	h1
 	{
@@ -748,6 +756,7 @@ textarea
 	.liste_section1
 	{
 		padding-left: 20px;
+		max-width: 460px;
 
 	}
 
@@ -1001,7 +1010,7 @@ textarea
 	.liste_section1
 	{
 		margin: 0px;
-		width: 200px;
+		width: 120px;
 		padding-right: 0px;
 	}
 
@@ -1035,7 +1044,7 @@ textarea
 
 	.conteneur_nav
 	{
-		width: 80px;
+		width: 76px;
 		margin: auto;
 	} 
 
@@ -1086,7 +1095,7 @@ textarea
 	.circ_projet2
 	{
 		
-		bottom: 75px;
+		bottom: 73px;
 		right: 10px;
 	}
 
