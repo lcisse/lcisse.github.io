@@ -494,7 +494,7 @@ section
  	   /*header*/
  	header
  	{
- 		height: 445px;
+ 		height: 430px;
  	}
 
 	 #circle
@@ -1051,20 +1051,21 @@ textarea
     {
     	;
     } 
-    	.nav_nos_projets
+    .nav_nos_projets
 	{
 		padding: 18px 0px 15px 0px;
+		max-width: 276px;
 	}
 
 	.conteneur_nav
 	{
-		width: 76px;
+		width: 68px;
 		margin: auto;
 	} 
 
 	.all_works
 	{
-	   padding: 18px 0px 15px 10px
+	   padding: 18px 0px 15px 0px
 	}
 
 	.liste_projet
