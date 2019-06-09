@@ -537,6 +537,14 @@ section
 	    {
 	        width: 170px;
 	    }
+
+		    #conteneur_portfolio
+		{
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 999px;
+			justify-content: center;
+		}
 	}
 
 	 @media all and (min-width: 1540px) and (max-width: 2560px)
@@ -545,6 +553,14 @@ section
 	    {
 	        width: 410px;
 	    }
+
+	    #conteneur_portfolio
+   		{
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1760px;
+		justify-content: center;
+		}
 
 	}
 
@@ -1037,9 +1053,7 @@ textarea
     } 
     	.nav_nos_projets
 	{
-		margin: 0px;
 		padding: 18px 0px 15px 0px;
-	    width: 100%;
 	}
 
 	.conteneur_nav
