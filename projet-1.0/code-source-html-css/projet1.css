@@ -483,64 +483,63 @@ section
 	top: -8px;
 	right: 23px;
 }
-                
-                /*laptop*/
-	@media all and (min-width: 769px) and (max-width: 1200px)
+
+@media all and (min-width: 769px) and (max-width: 1024px)
+ {
+ 	h1 
+ 	{
+ 		font-size: 2em;
+ 	} 
+
+ 	   /*header*/
+ 	header
+ 	{
+ 		height: 430px;
+ 	}
+
+	 #circle
 	{
-	 	h1 
-	 	{
-	 		font-size: 2em;
-	 	} 
+		bottom: 160px;
+		
+		
+	}
+	#circle1
+	{
+		bottom: 160px; 
+	}
 
-	 	   /*header*/
-	 	header
-	 	{
-	 		height: 430px;
-	 	}
+	.fleche_left
+	{
+		bottom: 160px;
+	}
 
-		 #circle
-		{
-			bottom: 160px;
-			
-			
-		}
-		#circle1
-		{
-			bottom: 160px; 
-		}
+	.fleche_right
+	{
+		bottom: 160px;
+	}
+	  /*nos services*/
+ 	.pc_liste_section1
+ 	{ 
+ 		
+ 	}
+ 	.liste_section1
+ 	{
+ 		width: 300px;
+ 	}
+ 	#image_pc
+ 	{
+ 		margin: 0px 0px 50px 0px;
+ 	}
 
-		.fleche_left
-		{
-			bottom: 160px;
-		}
-
-		.fleche_right
-		{
-			bottom: 160px;
-		}
-		  /*nos services*/
-	 	.pc_liste_section1
-	 	{ 
-	 		
-	 	}
-	 	.liste_section1
-	 	{
-	 		width: 300px;
-	 	}
-	 	#image_pc
-	 	{
-	 		margin: 0px 0px 50px 0px;
-	 	}
-
-	 	/*nos projets*/
-	 	
-		.portfolio img
-		{
-		    width: 170px;
-		}
-
-		#conteneur_portfolio
+ 	  /*nos projets*/
+ 	
+	 	.portfolio img
 	    {
+	        width: 170px;
+	    }
+
+		    #conteneur_portfolio
+		{
 			display: flex;
 			flex-wrap: wrap;
 			max-width: 999px;
@@ -548,8 +547,8 @@ section
 		}
 	}
 
-	@media all and (min-width: 1540px) and (max-width: 2560px)
-	{
+	 @media all and (min-width: 1540px) and (max-width: 2560px)
+	 {
 	 	.portfolio img
 	    {
 	        width: 410px;
@@ -557,10 +556,10 @@ section
 
 	    #conteneur_portfolio
    		{
-			display: flex;
-			flex-wrap: wrap;
-			max-width: 1760px;
-			justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1760px;
+		justify-content: center;
 		}
 
 	}
@@ -618,6 +617,9 @@ textarea
 	width: 100px;
 	padding: 5px 0px 5px 0px;
 }
+
+     /*.....espace nos projets..*/
+
 
           /*.......ECRAN TABLETTE......*/
 
